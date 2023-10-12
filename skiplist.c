@@ -89,10 +89,10 @@ int main (){
 
     } else if (strcmp(comando, "busca") == 0){
         scanf("%s", verbete->nome);
-        buscar();
+        //buscar();
 
     } else if (strcmp(comando, "impressao") == 0){
-        scanf("%c", verbete->nome[0]);
+        scanf("%c", &verbete->nome[0]);
         imprimir();
 
     } else {
